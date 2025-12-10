@@ -3,12 +3,12 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "26343810"))
+API_HASH = environ.get("API_HASH", "6ac64c03481d679241dd749b8ecee201")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7550972433:AAHsUKhjZojys-WyKfFyEBF5JAcvS4GwauI")
 
-OWNER = int(environ.get("OWNER", ""))
-CREDIT = environ.get("CREDIT", "")
+OWNER = int(environ.get("OWNER", "7667306230"))
+CREDIT = environ.get("CREDIT", "7667306230")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
@@ -20,3 +20,4 @@ if int(OWNER) not in AUTH_USERS:
   
 #WEBHOOK = True  # Don't change this
 #PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+
